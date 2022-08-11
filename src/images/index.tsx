@@ -4,6 +4,9 @@ import javascript from './javascript.png'
 import trybe from './trybe_preto.webp'
 import fotoProfile from './foto_profile.jpeg'
 import reactLogo from './react.png'
+import redux from './redux.png'
+import materialUi from './material_ui.png'
+import node from './node.png'
 
 export {
   html5,
@@ -11,5 +14,8 @@ export {
   javascript,
   trybe,
   fotoProfile,
-  reactLogo
+  reactLogo,
+  redux,
+  materialUi,
+  node,
 }

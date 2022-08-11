@@ -1,0 +1,25 @@
+#stacks {
+  width: 90%;
+  height: max-content;
+  margin: 1rem auto 0 auto;
+  background-color: black;
+  border-radius: 1rem;
+  padding: 1rem 1rem;
+}
+
+.stacksContainer {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stacks__frontEnd > h2, .stacks__backEnd > h2 {
+  text-align: center;
+}
+
+.stacks__frontEnd > a > img, .stacks__backEnd > a > img {
+  width: 3rem;
+  margin: 1rem;
+}
