@@ -7,7 +7,7 @@ const Header = () => {
       <div className='headerContainer'>
         <div className='header__myName'>
           <h1>
-            Wellington Carvalho
+          🧑‍💻 Wellington Carvalho
           </h1>
         </div>
         <div className='header__list'>

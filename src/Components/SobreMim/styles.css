@@ -1,10 +1,10 @@
 #sobreMim {
   width: 90%;
-  height: 35rem;
+  height: max-content;
   margin: 1rem auto 0 auto;
   background-color: black;
   border-radius: 1rem;
-  padding: 0 1rem;
+  padding: 1rem 1rem;
 }
 
 .sobreMimContainer {
@@ -14,10 +14,37 @@
   align-items: center;
 }
 
-.sobreMim_information, .sobreMim_profile {
+.sobreMim__information, .sobreMim_profile {
   width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.sobreMim__information__stacks,
+.sobreMim__information__studentOrg > a,
+.sobreMim__information__frameworks
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sobreMim__information__stacks > img, .sobreMim__information__studentOrg > a > img {
+  width: 3rem;
+}
+
+.sobreMim__information__frameworks > img {
+  width: 10rem;
+}
+
+.sobreMim_profile > img {
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .sobreMimContainer {
+    flex-direction: column-reverse;
+  }
 }
