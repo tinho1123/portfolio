@@ -27,7 +27,7 @@ const SobreMim = () => {
           </div>
 
           <p>Frameworks:</p> 
-          <div className='sobreMim__information__stacks'>   
+          <div className='sobreMim__information__frameworks'>   
 
               <img src={reactLogo} alt='React'/>
 

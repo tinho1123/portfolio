@@ -22,7 +22,10 @@
   justify-content: center;
 }
 
-.sobreMim__information__stacks , .sobreMim__information__studentOrg > a {
+.sobreMim__information__stacks,
+.sobreMim__information__studentOrg > a,
+.sobreMim__information__frameworks
+{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,6 +33,14 @@
 
 .sobreMim__information__stacks > img, .sobreMim__information__studentOrg > a > img {
   width: 3rem;
+}
+
+.sobreMim__information__frameworks > img {
+  width: 10rem;
+}
+
+.sobreMim_profile > img {
+  border-radius: 1rem;
 }
 
 @media screen and (max-width: 600px) {
