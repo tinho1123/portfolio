@@ -1,0 +1,22 @@
+#sobreMim {
+  width: 90%;
+  height: 35rem;
+  margin: 1rem auto 0 auto;
+  background-color: black;
+  border-radius: 1rem;
+  padding: 0 1rem;
+}
+
+.sobreMimContainer {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sobreMim_information, .sobreMim_profile {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
