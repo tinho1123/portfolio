@@ -15,11 +15,21 @@
   align-items: center;
 }
 
-.stacks__frontEnd > h2, .stacks__backEnd > h2 {
+.stacks > h2 {
   text-align: center;
 }
 
-.stacks__frontEnd > a > img, .stacks__backEnd > a > img {
+.imgSmall {
   width: 3rem;
+  margin: 1rem;
+}
+
+.imgMedium {
+  width: 5rem;
+  margin: 1rem;
+}
+
+.imgBig {
+  width: 7rem;
   margin: 1rem;
 }

@@ -6,7 +6,12 @@ import fotoProfile from './foto_profile.jpeg'
 import reactLogo from './react.png'
 import redux from './redux.png'
 import materialUi from './material_ui.png'
-import node from './node.png'
+import node from './nodejs.jpg'
+import express from './Expressjs.png'
+import typescript from './typescript.png'
+import sequelize from './sequelize.png'
+import mongo from './mongo.png'
+import mySql from './mysql.png'
 
 export {
   html5,
@@ -18,4 +23,9 @@ export {
   redux,
   materialUi,
   node,
+  express,
+  typescript,
+  sequelize,
+  mongo,
+  mySql
 }
